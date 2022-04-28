@@ -1,7 +1,7 @@
 /* ############### Header Section ############### */
 
 .header-wrapper-home {
-  background: url("/images/misc/home-bg.jpg");
+  background: url("/images/misc/home-bg.jpeg");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 }
 
 @media (max-width: 550px) {
+
   .header-wrapper-home,
   .header-wrapper-browse {
     padding: 15px 20px;
@@ -39,6 +40,7 @@
 }
 
 @media (max-width: 550px) {
+
   .navbar-home,
   .navbar-signin {
     margin-bottom: 100px;
