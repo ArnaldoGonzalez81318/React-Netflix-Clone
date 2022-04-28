@@ -3,16 +3,16 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 // 1) when seeding the database you'll have to uncomment this!
-// import { seedDatabase } from '../seed';
+// import { seedDatabase } from '../seed.js';
 
 const config = {
-  apiKey: 'AIzaSyCev-C6AKuyxD8oXcGwuAyyGmWpo7INl3U',
-  authDomain: 'netflix-test01.firebaseapp.com',
-  databaseURL: 'https://netflix-test01.firebaseio.com',
-  projectId: 'netflix-test01',
-  storageBucket: 'netflix-test01.appspot.com',
-  messagingSenderId: '541152959854',
-  appId: '1:541152959854:web:38145f65984eef0cd3757f',
+  apiKey: "AIzaSyDYnBD2tYiKSnzOlTERiVyOmyqPmrWMJMk",
+  authDomain: "netflix-clone-f7460.firebaseapp.com",
+  databaseURL: 'https://netflix-clone-f7460-default-rtdb.firebaseio.com/',
+  projectId: "netflix-clone-f7460",
+  storageBucket: "netflix-clone-f7460.appspot.com",
+  messagingSenderId: "2988514238",
+  appId: "1:2988514238:web:18c179d09277bbd58237ef"
 };
 
 const firebase = Firebase.initializeApp(config);
